@@ -27,7 +27,8 @@ for nu in range(0,nr_numbers):
 
 print(s)'''
 
-# Hard Caseprint("Welcome to Pypassword generator!")
+# Hard Case
+print("Welcome to Pypassword generator!")
 nr_letters = int(input("How many letters would you like in your Password: "))
 if nr_letters<4:
     print('Less than 4 is not safe please re-enter \n')
